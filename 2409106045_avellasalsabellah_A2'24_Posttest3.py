@@ -1,0 +1,9 @@
+pinjaman = int(input("Masukkan Jumlah Pinjaman : "))
+bunga = int(input("Masukkan Waktu Cicilan : "))
+satu_tahun = pinjaman * (0,7 / 12)
+dua_tahun = pinjaman * (0,13 / 12)
+tiga_tahun = pinjaman * (0,19 / 12)
+cicilan = int(input("Masukkan Waktu Cicilan : "))
+satu_tahun = (pinjaman + bunga) / 12
+dua_tahun = (pinjaman + bunga) / 24
+tiga_tahun = (pinjaman + bunga) / 36
